@@ -105,5 +105,6 @@ nav .btn{
 
 /* price in h3 tag of coin div */
 .coin h3{
-
+    color: #fff;
+    margin-bottom: 5px;
 }

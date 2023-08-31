@@ -2,6 +2,8 @@ var btc = document.getElementById("bitcoin");
 var eth = document.getElementById("ethereum");
 var dog = document.getElementById("dogecoin")
 
+
+// https://www.coingecko.com/en/api/documentation
 var settings = {
     "async": true,
     "scrossDomain": true,
@@ -10,6 +12,7 @@ var settings = {
     "headers": {}
 }
 
+// https://www.coingecko.com/en/api/documentation
 $.ajax(settings).done(function (response){
     // console.log(response);
     btc.innerHTML = response.bitcoin.usd;
