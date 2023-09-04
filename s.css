@@ -1,3 +1,4 @@
+/* general page layout styling */
 *{
     margin: 0;
     padding: 0;
@@ -5,6 +6,7 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+/* container styling */
 .container{
     width: 100%;
     height: 100vh;
@@ -15,6 +17,7 @@
     color: #fff;
 }
 
+/* navigation styling */
 nav{
     width: 100%;
     padding: 20px 0;
@@ -22,27 +25,31 @@ nav{
     align-items: center;
 }
 
+/* logo right side of nav styling */
 .logo{
     width: 50px;
     cursor: pointer;
 }
 
+/* ul styling to cover available space */
 nav ul{
     /* use entire available space */
     flex: 1;
 }
 
+/* link styling in nav to display inline in a block */
 nav ul li{
     display: inline-block;
     margin: 10px 20px;
-
 }
 
+/* anchor element styling contained in list elements */
 nav ul li a{
     color: #fff;
     text-decoration: none;
 }
 
+/* btn styling for currency in nav element */
 nav .btn{
     color: #fff;
     text-decoration: none;
@@ -51,24 +58,29 @@ nav .btn{
     border-radius: 20px;
 }
 
+/* content styling for space at top */
 .content{
     margin-top: 12%;
 }
 
+/* header styling in content division */
 .content h1{
     font-size: 88px;
     margin-bottom: 15px;
 }
 
+/* h1 span styling in content class division */
 .content h1 span{
     color: #ff960b;
 }
 
+/* paragraph styling in content division */
 .content p{
     line-height: 22px;
     font-size: 14px;
 }
 
+/* button styling in comment field */
 .content .btn{
     display: inline-block;
     margin-top: 30px;
@@ -79,6 +91,7 @@ nav .btn{
     border-radius: 30px;
 }
 
+/* coin list styling for all coin elements */
 .coin-list{
     position: absolute;
     right: 10%;
@@ -87,6 +100,7 @@ nav .btn{
     align-items: center;
 }
 
+/* individual coin styling division */
 .coin{
     display: flex;
     align-items: center;
@@ -98,6 +112,7 @@ nav .btn{
     border-radius: 8px;
 }
 
+/* coin image styling */
 .coin img{
     width: 40px;
     margin-right: 10px;
