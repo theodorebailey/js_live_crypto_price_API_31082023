@@ -6,50 +6,73 @@
     <title>live crypto currency</title>
     <link rel="stylesheet" href="s.css">
     <!-- so I can write in Jqeury -->
+    <!-- add jquery cdn -->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 </head>
 <body>
 
+    <!-- create a container -->
+
     <div class="container">
+        <!-- create a navigation field -->
         <nav>
+            <!-- create an image element with class to populate right side of nav -->
             <img src="images/logo.png" alt="" class="logo">
+            <!-- create a list, populate list with navigation elements -->
             <ul>
                 <!-- add anchor to make clickable link -->
                 <li><a href="#">Market</a></li>
                 <li><a href="#">Features</a></li>
                 <li><a href="#">White Papers</a></li>
                 <li><a href="#">About Us</a></li>
-
             </ul>
+            <!-- create an anchor element to populate with location -->
             <a href="#" class="btn">EN</a>
         </nav>
 
+        <!-- create a division to populate page -->
         <div class="content">
+            <!-- create a header element with customised span and break section to style uniquely -->
             <h1>BUY & <br>SELL <span>Crypto</span></h1>
+            <!-- use a paragraph element for text -->
             <p>Worlds Biggest Cryptocurrency exchange available on web <br> as well as mobile</p>
+            <!-- create an anchor element with button to link externally -->
             <a href="#" class="btn">EXPLORE MORE</a>
         </div>
 
         <!-- icon name and price -->
+        <!-- create another division -->
         <div class="coin-list">
+            <!-- create a coin division for each seperate coin -->
             <div class="coin">
+                <!-- use an image element -->
                 <img src="images/bitcoin.png" alt="">
                 <div>
+                    <!-- with a medium sized header with span to populate with bitcoin image -->
                     <h3>$<span id="bitcoin"></span></h3>
+                    <!-- text to indicate coin -->
                     <p>Bitcoin</p>
                 </div>
             </div>
+            <!-- create another coin division -->
             <div class="coin">
+                <!-- populate with ethereum image -->
                 <img src="images/ethereum.png" alt="">
                 <div>
+                    <!-- create a medium header to populate with price -->
                     <h3>$<span id="ethereum"></span></h3>
+                    <!-- tex to indicate coin -->
                     <p>Ethereum</p>
                 </div>
             </div>
+            <!-- create another coin section -->
             <div class="coin">
+                <!-- create image to indicate dogecoin -->
                 <img src="images/dogecoin.png" alt="">
                 <div>
+                    <!-- create a h3 tag to populate with price -->
                     <h3>$<span id="dogecoin"></span></h3>
+                    <!-- create a paragraph element to indicate coin -->
                     <p>Dogecoin</p>
                 </div>
             </div>
@@ -58,6 +81,7 @@
 
     </div>
 
+    <!-- attach js file -->
     <script src="js.js"></script>
     
 </body>
